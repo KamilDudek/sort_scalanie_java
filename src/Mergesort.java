@@ -1,10 +1,7 @@
-import java.util.Random;
-
 public class Mergesort {
     private static final int N = 30;
     private static int array[] = {30,29,28,27,26,25,1,2,3,4,5,6,7,24,23,22,21,20,19,18,8,9,10,11,17,16,15,13,14,12};
     private static int extraArray[] = new int[N]; //tablica do przechowywania zmiennych
-    ;  //tworzymy nowa tablice o wielkosci arrayToSort
 
     private static void mergeSort(int leftIndex,int rightIndex) {
         if (leftIndex < rightIndex) {
